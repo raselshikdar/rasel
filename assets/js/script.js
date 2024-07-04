@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("VX15B_V5CIaUWwR8u");
+        emailjs.init("user_VX15B_V5CIaUWwR8u");
 
         emailjs.sendForm('service_xs6wanf', 'template_r30t6h5', '#contact-form')
             .then(function (response) {
@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Rasel Shikdar";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
