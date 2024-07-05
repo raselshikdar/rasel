@@ -41,7 +41,12 @@ $(document).ready(function () {
     $("#contact-form").submit(function (event) {
         emailjs.init("process.env.REACT_APP_EMAILJS_PUBLIC_API");
 
-        emailjs.sendForm('process.env.REACT_APP_EMAILJS_SERVICE_ID', 'process.env.REACT_APP_EMAILJS_TEMPLATE_ID', '#contact-form')
+        emailjs.sendForm(
+            process.env.REACT_APP_EMAILJS_SERVICE_ID,
+                process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+                data,
+                process.env.REACT_APP_EMAILJS_PUBLIC_API
+        )
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
