@@ -41,15 +41,15 @@ $(document).ready(function () {
     $("#contact-form").submit(function (event) {
         emailjs.init("VX15B_V5CIaUWwR8u");
 
-        emailjs.send("service_xs6wanf", "template_r30t6h5", "#contact-form")
-            .then(
-  (response) => {
-    console.log('SUCCESS!', response.status, response.text);
-  },
-  (error) => {
-    console.log('FAILED...', error);
-  },
-);
+        emailjs.sendForm("service_xs6wanf", "template_r30t6h5", "#contact-form")
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+                document.getElementById("contact-form").reset();
+                alert("Form Submitted Successfully");
+            }, function (error) {
+                console.log('FAILED...', error);
+                alert("Form Submission Failed! Try Again");
+            });
         event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
