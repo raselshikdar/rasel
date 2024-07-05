@@ -39,9 +39,9 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("VX15B_V5CIaUWwR8u");
+        emailjs.init("process.env.REACT_APP_EMAILJS_PUBLIC_API");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.sendForm('process.env.REACT_APP_EMAILJS_SERVICE_ID', 'process.env.REACT_APP_EMAILJS_TEMPLATE_ID', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
