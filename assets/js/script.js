@@ -37,7 +37,22 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    
+    // <!-- emailjs to mail contact form data -->
+    $("#contact-form").submit(function (event) {
+        emailjs.init("VX15B_V5CIaUWwR8u");
+
+        emailjs.send("service_xs6wanf", "template_r30t6h5", "#contact-form")
+            .then(
+  (response) => {
+    console.log('SUCCESS!', response.status, response.text);
+  },
+  (error) => {
+    console.log('FAILED...', error);
+  },
+);
+        event.preventDefault();
+    });
+    // <!-- emailjs to mail contact form data -->
 
 });
 
