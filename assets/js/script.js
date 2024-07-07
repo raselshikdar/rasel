@@ -63,7 +63,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Rasel Shikdar";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
