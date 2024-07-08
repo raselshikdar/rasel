@@ -45,18 +45,18 @@
     "image": "SvelteKitBlog",
     "category": "mern",
     "links": {
-      "view": "https://instagramernstack.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/instagram-mern"
+      "view": "https://rsblog.us.kg/",
+      "code": "https://github.com/raselshikdar/rsinfo"
     }
   },
   {
-    "name": "Flipkart MERN",
-    "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
+    "name": "Developer Portfolio",
+    "desc": "Portfolio website build using HTML5, CSS3, JavaScript and jQuery.",
+    "image": "CSSPortfolio",
     "category": "mern",
     "links": {
-      "view": "https://flipkartwebs.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/flipkart-mern"
+      "view": "https://rasel.us.kg/",
+      "code": "https://github.com/raselshikdar/rasel"
     }
   },
   {
