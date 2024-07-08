@@ -52,7 +52,7 @@
   {
     "name": "Developer Portfolio",
     "desc": "Portfolio website build using HTML5, CSS3, JavaScript and jQuery.",
-    "image": "CSSPortfolio",
+    "image": "CSSProfile",
     "category": "mern",
     "links": {
       "view": "https://rasel.us.kg/",
@@ -62,7 +62,7 @@
   {
     "name": "Simple Resume",
     "desc": "Simple resume website made using javascript.",
-    "image": "JSPortfolio",
+    "image": "JSProfile",
     "category": "mern",
     "links": {
       "view": "https://raselshikdar.is-a.dev/resume/",
