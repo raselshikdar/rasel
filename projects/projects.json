@@ -40,9 +40,9 @@
     }
   },
   {
-    "name": "Instagram MERN",
-    "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
+    "name": "Personal Blog",
+    "desc": "Personal website and blog made with SvelteKit",
+    "image": "SvelteKitBlog",
     "category": "mern",
     "links": {
       "view": "https://instagramernstack.herokuapp.com/",
