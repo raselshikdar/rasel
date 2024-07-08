@@ -60,13 +60,13 @@
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
+    "name": "Simple Resume",
+    "desc": "Simple resume website made using javascript.",
+    "image": "JSPortfolio",
     "category": "mern",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/jigar-sable/resumegen"
+      "view": "https://raselshikdar.is-a.dev/resume/",
+      "code": "https://github.com/raselshikdar/resume"
     }
   },
   {
@@ -90,13 +90,13 @@
     }
   },
   {
-    "name": "JavaScript Projects Website",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-    "image": "jspro",
+    "name": "Personal Portfolio Website",
+    "desc": "Personal portfolio website made with HTML, CSS and JavaScript.",
+    "image": "HTMLProfile",
     "category": "basicweb",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+      "view": "https://rasel.is-a.dev",
+      "code": "https://github.com/raselshikdar/raselshikdar.github.io"
     }
   },
   {
