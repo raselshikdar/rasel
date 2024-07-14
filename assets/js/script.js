@@ -43,9 +43,9 @@ $(document).ready(function () {
 
         emailjs.sendForm("service_za2621v", "template_r30t6h5", "#contact-form")
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+                console.log("SUCCESS!", response.status, response.text);
                 document.getElementById("contact-form").reset();
-                alert("Message Sent Successfully");
+                alert("Message has been sent successfully. Will respond to this message ASAP.");
             }, function (error) {
                 console.log('FAILED...', error);
                 alert("Failed To Send The Message! Try Again");
